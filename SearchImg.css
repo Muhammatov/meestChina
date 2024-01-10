@@ -1,0 +1,1187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.wrapper {
+     max-width: 1300px;
+     width: 100%;
+     height: auto;
+     /* border: 1px solid red; */
+     margin: auto;
+     padding-bottom: 20px;
+
+     .tabels {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          border-bottom: .5px solid #DFDFDF;
+          display: flex;
+          align-items: center;
+          /* padding: 15px 0px; */
+          justify-content: space-between;
+
+          /* Tillar qismi boshlandi */
+          .tables-lang {
+               max-width: 85px;
+               width: 100%;
+               height: auto;
+
+               /* border: 1px solid red; */
+               .lang-uz {
+                    font-size: 15px;
+                    color: #000;
+               }
+
+               .icon-uz {
+                    width: 30px;
+               }
+
+               .langUz {
+                    width: 75px;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    background-color: #fff;
+                    color: #000;
+                    border: none;
+                    gap: 6px;
+                    justify-content: center;
+
+
+
+               }
+
+               .drop-menu {
+                    width: 90px !important;
+               }
+          }
+
+          /* Tillar qismi tugadi */
+          /* Navbar qismi boshlandi */
+          .tabels-navbars {
+               max-width: 1100px;
+               width: 100%;
+               height: auto;
+               display: flex;
+               /* padding-top: 15px; */
+               flex-wrap: wrap;
+               padding: 0px;
+               /* background-color: red; */
+               justify-content: space-between;
+               /* border: 1px solid orange; */
+
+               .table-left {
+                    max-width: 950px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    height: auto;
+                    padding: 10px 0px;
+                    /* background-color: red; */
+
+
+                    ul {
+                         max-width: 1000px;
+                         width: 100%;
+                         display: flex;
+                         height: auto;
+                         align-items: center;
+                         gap: 10px;
+                         flex-wrap: wrap;
+                         /* padding-top: 15px; */
+                         justify-content: space-between;
+
+                         li {
+                              text-decoration: none;
+                              list-style: none;
+
+
+                              a {
+                                   text-decoration: none;
+                                   font-size: 13px;
+                                   color: #868DC4;
+                                   font-family: 'Montserrat', sans-serif;
+
+                              }
+
+                              a:hover {
+                                   text-decoration: underline;
+                              }
+                         }
+                    }
+               }
+
+               .table-right {
+                    max-width: 150px;
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    padding: 10px 0px;
+                    align-items: center;
+                    margin-top: -10px;
+                    justify-content: space-between;
+                    /* background-color: green; */
+
+                    .us {
+                         width: 55px;
+                         height: auto;
+                         display: flex;
+                         justify-content: space-between;
+                         /* border: 1px solid #fff; */
+                         font-size: 14px;
+                         color: #8B90FC;
+
+                         .dollar {
+                              font-size: 16px;
+                              color: #2C7BBC;
+                              font-weight: 400;
+                              text-decoration: none;
+                              font-family: 'Montserrat', sans-serif;
+                         }
+
+                         .usd:hover {
+                              text-decoration: underline;
+                         }
+                    }
+
+
+                    .lang {
+                         width: 75px;
+                         height: auto;
+                         /* border: 1px solid yellow; */
+                         display: flex;
+                         justify-content: center;
+                         gap: 6px;
+                         align-items: center;
+
+                         .lan1 {
+                              font-size: 16px;
+                              text-decoration: none;
+                              color: #2C7BBC;
+                              font-weight: 400;
+                              font-family: 'Montserrat', sans-serif;
+                         }
+
+                         .lan1:hover {
+                              text-decoration: underline;
+                         }
+
+                         .line {
+                              line-height: 25px;
+                              /* margin-top: -6px; */
+                         }
+                    }
+               }
+          }
+
+          /* Navbar qismi tugadi */
+
+     }
+
+     /* Psi qismi boshlandi */
+     .psi {
+          width: 100%;
+          height: auto;
+          /* border: 1px solid orange; */
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          .psi-img {
+               width: 150px;
+               height: 80px;
+               /* border: 1px solid green; */
+               padding-top: 10px;
+               ;
+
+               .pImg {
+                    width: 150px;
+               }
+          }
+
+          .psi-search {
+               max-width: 1100px;
+               width: 100%;
+               height: auto;
+               gap: 15px;
+               /* border: 1px solid blue; */
+               display: flex;
+               flex-wrap: wrap;
+               align-items: center;
+               justify-content: space-between;
+
+
+               .search {
+                    max-width: 500px;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    display: flex;
+                    padding: 0px 10px;
+                    justify-content: space-between;
+                    border: 1px solid #DFDFDF;
+
+                    .btn-img {
+                         width: 20px;
+                    }
+
+                    .dropdown {
+                         width: 110px;
+                         height: 45px;
+
+                         border-right: .5px solid #DFDFDF;
+
+                         .button {
+                              padding: 10px 0px;
+                              display: flex;
+                              gap: 3px;
+                              align-items: center;
+                              width: 100px;
+                              /* border-right: .5px solid grey; */
+                         }
+                    }
+
+                    .izlash {
+                         width: 400px;
+                         line-height: 50px;
+                         display: flex;
+                         justify-content: space-between;
+                         align-items: center;
+                         /* border: 1px solid orange; */
+                         padding: 0px 10px;
+
+                         .imgSearch {
+                              width: 15px;
+                         }
+
+                         .inpSearch {
+                              width: 80%;
+                              height: 30px;
+                              padding: 0px 10px;
+                              border: none;
+                              display: flex;
+                              align-items: center;
+                              margin-top: 10px;
+                              outline: none;
+                         }
+
+                         .inpSearch::placeholder {
+                              font-size: 23px;
+                              color: #868DC4;
+                         }
+                    }
+
+
+
+               }
+
+
+          }
+
+          .icons {
+               width: 200px;
+               height: auto;
+               /* border: 1px solid red; */
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+
+
+               .boxIcon {
+                    width: 60px;
+                    height: 60px;
+                    /* border: 1px solid red; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .heart {
+                         border: none;
+                         background-color: #fff;
+                    }
+
+                    .fa-solid {
+                         font-size: 25px;
+                         /* display: block; */
+                         width: 100%;
+                         height: 100%;
+                    }
+                    .modal-dialog{
+                         max-width: 700px;
+                         width: 100%;
+                         padding: 0px;
+                         /* margin: 0px; */
+                         /* background-color: orange; */
+                    }
+                    .modal-content {
+                         max-width: 700px;
+                         width: 100%;
+                         /* background-color: red; */
+                         display: flex;
+                         justify-content: center;
+                         padding: 0px 10px;
+                         margin: auto;
+                         padding-bottom: 20px;
+
+                         .kirish {
+                              font-weight: 700;
+                         }
+                    }
+
+                    .regis {
+                         max-width: 600px;
+                         width: 90%;
+                         height: auto;
+                         margin: auto;
+                         /* border: 1px solid orange; */
+                         display: flex;
+                         flex-direction: column;
+                         gap: 15px;
+
+                         .regis-email {
+                              font-weight: 500;
+                         }
+
+                         .regis-exp {
+                              width: 100%;
+                              height: 40px;
+                              outline: none;
+                              border: 1px solid #949494;
+                         }
+
+                         .regis-pass {
+                              text-decoration: none;
+                              color: #3981CA;
+                         }
+                         .chek{
+                              width: 200px;
+                              height: 20px;
+                              /* border: 1px solid green; */
+                              display: flex;
+                              gap: 10px;
+                              cursor: pointer;
+                         }
+                         .welcom{
+                              width: 100%;
+                              height: 40px;
+                              margin: auto;
+                              border: none;
+                              outline: none;
+                              color: #fff;
+                              font-size: 16px;
+                              background-color: #EC1944;
+                         }
+                         .welc-regis{
+                              max-width: 400px;
+                              width: 100%;
+                              height: auto;
+                              display: flex;
+                              justify-content: center;
+                              padding: 10px 6px;
+                              font-size: 14px;
+                              gap: 7px;
+                              /* border: 1px solid red; */
+
+                              .welc-reg-a{
+                                   text-decoration: none;
+                              }
+                         }
+
+                         .modal2{
+                              position: absolute;
+                              z-index: 99;
+                         }
+                    }
+               }
+          }
+     }
+
+     /* Psi qismi tugadi */
+     /* Navlin qismi boshlandi */
+     .navlink {
+          width: 100%;
+          height: auto;
+          border-bottom: 1px solid #EdEdEd;
+          display: flex;
+          justify-content: space-between;
+          /* padding-right: 70px; */
+
+          .nav-left {
+               height: auto;
+               /* border: 1px solid orange; */
+          }
+
+          .nav-right {
+               max-width: 1050px;
+               width: 100%;
+               height: auto;
+               padding: 0px;
+               /* border: 1px solid red; */
+
+               ul {
+                    display: flex;
+                    line-height: 50px;
+                    margin: 0;
+                    padding: 0;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    li {
+                         list-style: none;
+
+                         a {
+                              text-decoration: none;
+                              font-family: 'Montserrat', sans-serif;
+                              font-size: 15px;
+                         }
+
+                         a:hover {
+                              text-decoration: underline;
+                         }
+                    }
+               }
+          }
+     }
+
+     /* Navlink qismi tugadi */
+     /* Reklama qismi boshlandi */
+     .Reklama {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+          /* border: 1px solid red; */
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .rek-left {
+               max-width: 300px;
+               width: 100%;
+               height: auto;
+               /* border: 1px solid orange; */
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+
+               .rek-box {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding-top: 5px;
+
+                    .inputs {
+                         width: 100%;
+                         height: auto;
+                         display: flex;
+                         align-items: center;
+                         border: 1.5px solid #EdEdEd;
+                         padding-right: 5px;
+
+                         .junat-izlash {
+                              width: 88%;
+                              height: 45px;
+                              border: none;
+                              outline: none;
+                              padding: 0px 10px;
+                         }
+
+                         .junat-izlash::placeholder {
+
+                              color: #8d8b8b;
+                              font-family: 'Montserrat', sans-serif;
+
+                         }
+
+                         .play-icon {
+                              font-size: 40px;
+                              color: #0E90FB;
+                              cursor: pointer;
+                         }
+                    }
+
+                    .junat {
+                         font-size: 19px;
+                    }
+
+               }
+
+               .rek-table {
+                    max-width: 350px;
+                    width: 100%;
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 5px;
+                    border: 1px solid #EdEdEd;
+
+                    .rek-box-header {
+                         width: 270px;
+                         height: auto;
+                         display: flex;
+                         align-items: center;
+                         gap: 10px;
+                         /* border: 1px solid yellow; */
+
+                         .fa-clock {
+                              margin-top: -15px;
+                              font-size: 20px;
+                         }
+
+                         .juna {
+                              font-size: 16px;
+                              font-weight: 900;
+                         }
+                    }
+
+                    .tabelss {
+                         max-width: 300px;
+                         width: 100%;
+                         height: auto;
+                         display: flex;
+                         flex-wrap: wrap;
+                         flex-direction: column;
+                         gap: 8px;
+                         padding: 10px 0px;
+                         /* border: 1px solid indianred; */
+
+                         .rek-box1 {
+                              width: 270px;
+                              height: 30px;
+                              display: flex;
+                              justify-content: space-between;
+                              /* border: 1px solid red; */
+
+                              .til {
+                                   font-size: 15px;
+                                   font-family: 'Montserrat', sans-serif;
+                              }
+                         }
+
+                         .rek-box2 {
+                              width: 270px;
+                              height: 30px;
+                              /* border: 1px solid indigo; */
+                              display: flex;
+                              /* align-items: center ; */
+                              justify-content: space-between;
+                         }
+
+                         .yunalish {
+                              width: 150px;
+                              height: 20px;
+
+
+                              .yunLink {
+                                   font-size: 14px;
+                                   text-decoration: none;
+                                   color: #000;
+                                   font-weight: 800;
+                                   font-family: 'Montserrat', sans-serif;
+                                   border-bottom: 1px solid #807f7f;
+                              }
+
+                              .yunLink:hover {
+                                   border-bottom: none;
+                              }
+                         }
+                    }
+
+               }
+          }
+
+          .carousel {
+               max-width: 950px;
+               width: 100%;
+               height: auto;
+               /* border: 1px solid green; */
+
+               .item {
+                    width: 100%;
+                    height: 500px;
+                    /* border: 1px solid red; */
+                    position: relative;
+
+                    img {
+                         max-width: 950px;
+                         width: 100%;
+                         height: 500px;
+                    }
+
+                    .item-info {
+                         position: absolute;
+                         width: 500px;
+                         height: auto;
+                         margin: 30px;
+
+                         .meest {
+                              color: #fff;
+                              font-size: 54px;
+                              font-weight: 800;
+                              line-height: 60px;
+                              font-family: 'Montserrat', sans-serif;
+
+                         }
+
+                         .yet {
+                              color: #fff;
+                              font-size: 14px;
+                              font-family: 'Montserrat', sans-serif;
+
+                         }
+
+                         .buttons {
+                              width: 450px;
+                              height: 60px;
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+
+                              .buy {
+                                   width: 230px;
+                                   height: 50px;
+                                   padding: 0px 15px;
+                                   border: none;
+                                   font-size: 15px;
+                                   background-color: #fff;
+                                   color: red;
+                                   border-radius: 4px;
+                              }
+
+                              .buy:hover {
+                                   background-color: #EC1944;
+                                   color: #fff;
+                              }
+
+                              .utish {
+                                   width: 190px;
+                                   height: 50px;
+                                   background-color: none;
+                                   border: 1px solid;
+                                   border-radius: 6px;
+                                   border: none;
+                                   background-color: transparent;
+                                   color: #fff;
+                                   font-weight: 500;
+                                   font-size: 18px;
+                                   outline: none;
+                                   border: 1px solid #fff;
+                              }
+
+                              .utish:hover {
+                                   background-color: #fff;
+                                   color: #0E90FB;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     /* Reklama qismi tugadi */
+     /* carusel-boxs qismi boshlandi */
+     .carusel-boxs {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+          /* border: 1px solid orange; */
+
+          .carusel-box {
+               width: 300px;
+               height: auto;
+               display: flex;
+               padding: 0px 20px;
+               gap: 5px;
+               /* border: 1px solid red; */
+               flex-direction: column;
+               border-right: 1px solid grey;
+
+               .carusel-header {
+                    width: 100%;
+                    height: 70px;
+                    /* border: 1px solid orange; */
+                    display: flex;
+                    padding: 0px 20px;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .fa-solid {
+                         font-size: 45px;
+                    }
+
+                    .massa {
+                         font-size: 25px;
+                         font-weight: 500;
+                         color: #1712F7;
+                    }
+               }
+
+               .carusel-title {
+                    width: 100%;
+                    height: auto;
+                    /* border: 1px solid orange; */
+
+                    .avto {
+                         font-weight: 800;
+                         font-size: 22px;
+                    }
+
+                    .chek-info {
+                         line-height: 20px;
+                         display: flex;
+                         gap: 10px;
+                         /* align-items: center; */
+                         color: #737373;
+
+                         .chek-circle {
+                              color: #0E90FB;
+                         }
+                    }
+               }
+
+               .carusel-info {
+                    width: 100%;
+                    height: 80px;
+                    /* border: 1px solid orange; */
+                    display: flex;
+                    align-items: end;
+                    padding-left: 20px;
+
+                    .bat {
+                         padding: 5px 20px;
+                         border: 1px solid #0E90FB;
+                         border-radius: 4px;
+                         background-color: transparent;
+                    }
+
+                    .bat:hover {
+                         background-color: #0E90FB;
+                         color: #ffff;
+                         font-weight: 800;
+                    }
+               }
+          }
+
+          .box2 {
+               border: none;
+          }
+     }
+
+     /* carusel-boxs qismi tugadi */
+     /* Meest-boxs start */
+     .meest-boxs {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          margin-top: 50px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          /* border: 1px solid orange; */
+
+          .meest-box {
+               max-width: 630px;
+               width: 100%;
+               height: auto;
+               /* border: 1px solid red; */
+               overflow: hidden;
+               position: relative;
+
+               .shop-icon {
+                    max-width: 670px;
+                    width: 100%;
+                    height: 250px;
+               }
+
+               .meest-title {
+                    max-width: 350px;
+                    width: 100%;
+                    height: auto;
+                    position: absolute;
+                    /* border: 1px solid #fff; */
+                    padding: 20px;
+
+
+                    .meest-info {
+                         font-size: 25px;
+                         font-weight: 800;
+                         color: #fff;
+                    }
+
+                    .kursatma {
+                         width: 200px;
+                         height: 50px;
+                         border: none;
+                         border-radius: 5px;
+                         color: #fb6007;
+                         font-weight: 500;
+                         background-color: #fff;
+
+                    }
+               }
+          }
+     }
+
+     /* Meest-boxs finish */
+     /* meest-malumot start */
+     .meest-malumot {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          /* margin-top: 20px; */
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          /* border: 1px solid orange; */
+
+          .mah-info {
+               max-width: 450px;
+               width: 100%;
+               height: 400px;
+               /* border: 1px solid green; */
+               padding: 40px 20px;
+
+               .sot {
+                    font-size: 32px;
+                    margin: auto;
+                    font-weight: 800;
+               }
+          }
+
+          .must-info {
+               max-width: 400px;
+               width: 100%;
+               height: auto;
+               background-color: #F2F7FB;
+               /* border: 1px solid blue; */
+               padding: 20px;
+
+               .must {
+                    font-size: 20px;
+                    font-weight: 700;
+               }
+
+               .xarid {
+                    color: #005DA9;
+               }
+
+               .tanish {
+                    width: 130px;
+                    height: 40px;
+                    background-color: transparent;
+                    border: 1px solid #0E90FB;
+                    border-radius: 6px;
+               }
+
+               .tanish:hover {
+                    background-color: #0E90FB;
+                    transform: translate(.5s);
+                    color: #fff;
+               }
+          }
+     }
+
+     /* meest-malumot finish */
+     /* product-calc start */
+     .product-calc {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          border: 1px solid #807f7f;
+          padding: 15px 20px;
+
+          .price {
+               max-width: 1300px;
+               width: 100%;
+               height: auto;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               flex-wrap: wrap;
+
+
+               .price-title {
+                    font-size: 32px;
+                    font-weight: 700;
+               }
+
+               .orange {
+                    color: orange;
+                    font-weight: 700;
+               }
+
+               .price-button {
+                    max-width: 300px;
+                    width: 100%;
+                    height: auto;
+                    /* border: 1px solid #737373; */
+                    display: flex;
+
+                    .price-btn {
+                         max-width: 200px;
+                         width: 100%;
+                         height: 35px;
+                         border-top-left-radius: 6px;
+                         border-bottom-left-radius: 6px;
+                         background-color: transparent;
+                         border: 1px solid #0E90FB;
+                         cursor: pointer;
+                    }
+
+                    .p-btn2 {
+                         width: 200px;
+                         height: 35px;
+                         border-top-right-radius: 6px;
+                         border-bottom-right-radius: 6px;
+                         cursor: pointer;
+                         background-color: transparent;
+                         border: 1px solid #0E90FB;
+                    }
+               }
+          }
+
+          .calcs {
+               max-width: 1300px;
+               width: 100%;
+               height: auto;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               /* border: 1px solid royalblue; */
+               padding-top: 20px;
+               padding-left: 20px;
+               gap: 10px;
+               margin-top: 20px;
+
+               .calc {
+                    width: 300px;
+                    height: auto;
+                    gap: 10px;
+
+                    border-right: 1px solid grey;
+
+                    .calc-info {
+                         font-size: 16px;
+                    }
+
+                    .calc-radios {
+                         width: 300px;
+                         height: auto;
+                         display: flex;
+                         flex-direction: column;
+                         gap: 5px;
+                         /* border: 1px solid red; */
+
+                         .calc-radio {
+                              width: 200px;
+                              height: auto;
+                              position: relative;
+                              /* border: 1px solid green; */
+
+                              .uz {
+                                   margin-left: 20px;
+                              }
+
+                              .flag-icon {
+                                   width: 25px;
+                              }
+
+                              .form-check-label {
+                                   font-weight: 700;
+                              }
+
+                              .save {
+                                   font-size: 14px;
+                              }
+
+                              .form-check-input {
+                                   font-size: 20px;
+                                   cursor: pointer;
+
+                              }
+
+                              .inp {
+                                   margin-top: 20px;
+                              }
+
+                              .form-inp {
+                                   width: 150px;
+                                   height: 50px;
+                                   margin-top: 8px;
+                                   margin-bottom: 10px;
+                                   font-size: 30px;
+                                   padding: 0px 5px;
+                                   border-radius: 5px;
+                                   border: none;
+                                   outline: none;
+                                   border: 2px solid #0E90FB;
+                              }
+
+                              .form-inp::placeholder {
+                                   position: absolute;
+                                   left: 100px;
+                                   font-weight: 700;
+                                   color: #A8A8A8;
+                              }
+
+                         }
+
+                    }
+               }
+
+               .calc-result {
+                    width: 300px;
+                    height: 300px;
+                    /* border: 1px solid red; */
+
+                    .rest-num {
+                         font-size: 55px;
+                         font-family: 'Zen Kaku Gothic New', sans-serif;
+                         font-weight: 200;
+                    }
+               }
+          }
+     }
+
+     /* product-calc finish */
+
+     /* Footer start */
+     .footer {
+          max-width: 1300px;
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          background-color: #F5F5F5;
+          flex-wrap: wrap;
+
+          .foot-box {
+               max-width: 200px;
+               width: 100%;
+               height: auto;
+               /* border: 1px solid #000; */
+               padding: 20px 10px;
+               display: flex;
+               flex-direction: column;
+
+               .foot-title {
+                    font-weight: 700;
+                    margin-left: 10px;
+               }
+
+               .fot-ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+               }
+
+               .fot-li {
+                    list-style: none;
+                    display: flex;
+                    gap: 20px;
+                    font-size: 14px;
+
+                    .font-a {
+                         font-size: 12px;
+                         text-decoration: none;
+                    }
+
+                    .font-a:hover {
+                         /* text-decoration: underline; */
+                         color: red;
+                    }
+               }
+          }
+
+          .foot-icons {
+               max-width: 100px;
+               width: 100%;
+               height: 400px;
+               /* border: 1px solid royalblue; */
+               padding: 20px 0px;
+
+               .foot-icon-title {
+                    font-weight: 700;
+               }
+
+               .foot-icon {
+                    max-width: 100px;
+                    width: 100%;
+                    height: auto;
+                    /* border: 1px solid red; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 5px;
+
+                    .foot-icon-a {
+                         text-decoration: none;
+
+                         .foot-img {
+                              width: 33px;
+                         }
+                    }
+               }
+          }
+
+          .acardion {
+               max-width: 1300px;
+               width: 100%;
+               height: auto;
+               display: none;
+               border: 1px solid orange;
+
+               .foot-title {
+                    font-weight: 700;
+                    margin-left: 10px;
+               }
+
+               .fot-ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+               }
+
+               .fot-li {
+                    list-style: none;
+                    display: flex;
+                    gap: 20px;
+                    font-size: 14px;
+
+                    .font-a {
+                         font-size: 12px;
+                         text-decoration: none;
+                    }
+
+                    .font-a:hover {
+                         /* text-decoration: underline; */
+                         color: red;
+                    }
+               }
+          }
+     }
+
+     /* Footer Finish */
+}

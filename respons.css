@@ -1,0 +1,59 @@
+@media screen and (max-width: 980px) {
+
+     .wrapper {
+          .tabels {
+               display: none;
+          }
+
+          .psi {
+               display: flex;
+               flex-wrap: nowrap;
+               justify-content: space-between;
+
+               .psi-search {
+                    .search {
+                         display: none;
+                    }
+               }
+
+          }
+          .navlink{
+
+               .nav-right{
+                    display: none;
+               }
+          }
+
+          .footer{
+               display: flex;
+               justify-content: start;
+
+               .foot-box{
+                    display: none;
+               }
+               .acardion{
+                    display: block;
+               }
+          }
+
+          .Reklama{
+               border: 1px solid red;
+               display: flex;
+               position: relative;
+               
+               
+               .carousel{
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+               }
+               
+               .rek-left{
+                    margin-top: 550px;
+               }
+
+               
+          }
+     }
+
+}
